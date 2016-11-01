@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph"
+        android:layout_width="match_parent"
+        android:layout_height="200dip" />
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:theme="?attr/actionBarTheme"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/toolbar2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/date" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/open" />
+
+    <TextView
+        android:text="high"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/high" />
+
+    <TextView
+        android:text="low"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/low" />
+
+    <TextView
+        android:text="volume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/volume" />
+
+    <TextView
+        android:text="year_low"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/year_low" />
+
+    <TextView
+        android:text="year_high"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/year_high" />
+
+    <TextView
+        android:text="50daymoving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fifty_day_moving" />
+
+    <TextView
+        android:text="200daymoving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/two_hund_day_moving" />
+
+    <TextView
+        android:text="year range"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/year_range" />
+
+    <TextView
+        android:text="after hours change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aft_hrs_chg" />
+
+</LinearLayout>

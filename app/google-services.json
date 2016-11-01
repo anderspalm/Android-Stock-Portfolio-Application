@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1071663669128",
+    "firebase_url": "https://stocksandnews-db514.firebaseio.com",
+    "project_id": "stocksandnews-db514",
+    "storage_bucket": "stocksandnews-db514.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071663669128:android:00ea19623dd248e1",
+        "android_client_info": {
+          "package_name": "com.anders.stocksandnews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071663669128-o8lo8t9i27bo0ctdu4hho90t9u3p897g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFJHWOdHF3wtQdpKz2Z0dLITSFdb1Pf_s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
